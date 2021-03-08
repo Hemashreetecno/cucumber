@@ -11,4 +11,4 @@ Feature: Login into amazon website
   Scenario: Negative scenario to test login functionality
     Given User has opened amazon website on Chrome Browser
     When User enters incorrect username and password
-    Then User should not be able to login sucessfuly
+    Then User should not be able to login sucessfully
